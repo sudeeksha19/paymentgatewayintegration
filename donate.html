@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+      .center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.contain { 
+  border: 3px solid rgb(70, 0, 128);
+  
+   
+}
+body{
+  background-color: rgba(17, 24, 39, 1);
+}
+    </style>
+</head>
+<body>
+    <header class="text-gray-400 bg-gray-900 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white" viewBox="0 0 24 24">
+              <path src="logo.jpg" ></path>
+              <img style="width:40px;" src="logo.jpg" >
+            </svg>
+            <span class="ml-3 text-xl" style="font-size:30px;">DONATE TO SOCIAL WORK</span>
+          </a>
+          <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <a class="mr-5 hover:text-white" href="index.html">Home</a>
+            <a class="mr-5 hover:text-white" href="gallary.html">Gallary</a>
+            <a class="mr-5 hover:text-white" href="contact.html">Contact</a>
+          </nav>
+        </div>
+      </header>
+      <div class="contain">
+      <div class="center">
+       <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_Ha1OoN9AmL86Q9" async> </script> </form>
+       
+</div>
+</div>
+</body>
+</html>
